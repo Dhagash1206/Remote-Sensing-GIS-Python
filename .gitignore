@@ -1,32 +1,36 @@
-# Virtual Environment
+# Virtual environment
 .venv/
 venv/
+env/
 
-
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
-
-
-.vscode/
-
-
-outputs/
-
-
-.ipynb_checkpoints/
-
-
-*.log
-
-
-.env
-
-
 build/
 dist/
-*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
 
+# Project outputs (auto-generated maps, charts, CSV)
+outputs/
 
+# Environment and secrets
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS
 .DS_Store
 Thumbs.db
+ehthumbs.db
+Desktop.ini
