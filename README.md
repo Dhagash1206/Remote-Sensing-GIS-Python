@@ -104,7 +104,7 @@ GeoSpatial_Project_test/
 **PowerShell (Windows):**
 
 ```powershell
-cd "c:\Users\dhagash\Desktop\GeoSpatial_Project_test"
+cd GeoSpatial_Project_test
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
@@ -118,7 +118,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 2. Run both scripts
+### 2. Run Scripts
 
 ```bash
 python scripts/data_visualization.py
